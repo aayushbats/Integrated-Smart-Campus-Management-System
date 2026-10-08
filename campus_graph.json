@@ -1,0 +1,21 @@
+{
+  "locations": [
+    "Main Gate", "Admin Block", "Central Library", "CSE Block", "CSE Lab",
+    "Auditorium", "Cafeteria", "Hostel", "Sports Complex", "Transport Hub"
+  ],
+  "edges": [
+    ["Main Gate", "Admin Block", 2],
+    ["Main Gate", "Transport Hub", 4],
+    ["Admin Block", "Central Library", 2],
+    ["Admin Block", "Auditorium", 4],
+    ["Central Library", "CSE Block", 2],
+    ["Central Library", "Cafeteria", 3],
+    ["CSE Block", "CSE Lab", 2],
+    ["CSE Block", "Sports Complex", 4],
+    ["Auditorium", "Cafeteria", 2],
+    ["Auditorium", "Hostel", 5],
+    ["Cafeteria", "Hostel", 2],
+    ["Hostel", "Sports Complex", 3],
+    ["Transport Hub", "Hostel", 6]
+  ]
+}

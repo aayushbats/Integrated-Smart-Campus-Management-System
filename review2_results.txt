@@ -1,0 +1,14 @@
+Review-II verification results
+
+BFS/DFS: all 10 campus locations visited
+Dijkstra: Main Gate -> CSE Lab = 8
+Prim/Kruskal: equal MST cost, 9 edges
+Transitive Closure: Main Gate reaches CSE Lab
+Bellman-Ford: Main Gate -> CSE Lab = 8
+Floyd-Warshall: Main Gate -> CSE Lab = 8
+0/1 Knapsack: maximum utility = 315 at capacity 12
+LCS: LIBRARY / LABORATORY = LBRARY
+Matrix Chain Multiplication: minimum cost = 18000
+Resource Allocation: maximum utility = 105 at capacity 5
+
+ALL REVIEW-II TESTS PASSED
